@@ -39,3 +39,5 @@ func TestPartitionLast(t *testing.T) {
 		assert.Equal(t, tt.expected[2], r2)
 	}
 }
+
+// TODO: test *Func variants
